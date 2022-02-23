@@ -1,0 +1,32 @@
+#GG_RWX_Administracion:3000028
+#GG_RX_administracion:3000021
+#GG_RWX_Informatica:3000029
+#GG_RX_informatica:3000023
+#GG_RWX_Prensa:3000030
+#GG_RX_prensa:3000025
+#GG_RWX_Rectorado:3000031
+#GG_RX_rectorado:3000027
+
+#Administracion
+setfacl -m g:3000028:rwx /publico/Departamentos/Administracion
+setfacl -m g:3000023:rw /publico/Departamentos/Administracion
+setfacl -m g:3000025:rw /publico/Departamentos/Administracion
+setfacl -m g:3000027:rw /publico/Departamentos/Administracion
+
+#Informatica
+setfacl -m g:3000029:rwx /publico/Departamentos/Informatica
+setfacl -m g:3000021:rw /publico/Departamentos/Informatica
+setfacl -m g:3000025:rw /publico/Departamentos/Informatica
+setfacl -m g:3000027:rw /publico/Departamentos/Informatica
+
+#Prensa
+setfacl -m g:3000030:rwx /publico/Departamentos/Prensa
+setfacl -m g:3000021:rw /publico/Departamentos/Prensa
+setfacl -m g:3000023:rw /publico/Departamentos/Prensa
+setfacl -m g:3000027:rw /publico/Departamentos/Prensa
+
+#Rectorado
+setfacl -m g:3000031:rwx /publico/Departamentos/Rectorado
+setfacl -m g:3000021:rw /publico/Departamentos/Rectorado
+setfacl -m g:3000023:rw /publico/Departamentos/Rectorado
+setfacl -m g:3000025:rw /publico/Departamentos/Rectorado
