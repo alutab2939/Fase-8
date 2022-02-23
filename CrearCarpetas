@@ -1,6 +1,6 @@
 #!/bin/bash
-sudo mkdir Departametos
-sudo mkdir /Departamentos/Prensa
-sudo mkdir /Departamentos/Administracion
-sudo mkdir /Departamentos/Informatica
-sudo mkdir /Departamentos/Rectorado
+sudo mkdir /publico/Departametos
+sudo mkdir /publico/Departamentos/Prensa
+sudo mkdir /publico/Departamentos/Administracion
+sudo mkdir /publico/Departamentos/Informatica
+sudo mkdir /publico/Departamentos/Rectorado
